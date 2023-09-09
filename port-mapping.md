@@ -43,10 +43,10 @@
 > ### To map multiple ports at once, serialize ports with the -p switch
 > ### `docker container run -d -p 83:80 -p 333:333 nginx`
 > 
->   - -p <span style="color:yellow">83 : <span style="color:white">83 </span></span> -p <span style="color:red">333 : <span style="color:green">333 </span></span>
+>   - -p <span style="color:yellow">83 : <span style="color:white">80 </span></span> -p <span style="color:red">333 : <span style="color:green">333 </span></span>
 >
 >     - <span style="color:yellow">83</span> - local port
->     - <span style="color:white">83</span> - container port
+>     - <span style="color:white">80</span> - container port
 >     - <span style="color:red">333</span> - local port
 >     - <span style="color:green">333</span> - container port
 
